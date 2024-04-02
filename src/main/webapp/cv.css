@@ -1,0 +1,43 @@
+/* Estilo geral */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header p {
+    font-style: italic;
+}
+
+.contato {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contato li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contato li a {
+    color: #333;
+    text-decoration: none;
+}
